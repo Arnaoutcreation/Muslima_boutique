@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --pink: #bd2866;
@@ -103,6 +104,63 @@
 
 .logo-wrap {
   border: 1px solid rgba(197,139,159,.25);
+}
+/* زخارف نباتية واضحة */
+.card {
+  border: 1px solid #d9b7c2;
+}
+
+.card::before {
+  content: "❀";
+  width: auto;
+  height: auto;
+  border: none;
+  top: 12px;
+  right: 17px;
+  color: #bd2866;
+  font-size: 30px;
+  opacity: .75;
+}
+
+.card::after {
+  content: "✿";
+  width: auto;
+  height: auto;
+  border: none;
+  bottom: 12px;
+  left: 17px;
+  color: #c49a53;
+  font-size: 27px;
+  opacity: .85;
+}
+
+.logo-wrap::before,
+.logo-wrap::after {
+  position: absolute;
+  color: #bd2866;
+  font-size: 21px;
+}
+
+.logo-wrap {
+  position: relative;
+}
+
+.logo-wrap::before {
+  content: "✧";
+  top: 18px;
+  right: -22px;
+}
+
+.logo-wrap::after {
+  content: "✧";
+  bottom: 18px;
+  left: -22px;
+}
+
+.ornament {
+  color: #bd2866;
+  font-size: 22px;
+  text-shadow: 0 0 8px rgba(189,40,102,.3);
 }
   </style>
 </head>
