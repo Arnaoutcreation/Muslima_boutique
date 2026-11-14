@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#eadccf">
-  <meta name="description" content="Muslima Boutique - أناقة الخُمُر والحجابات">
+  <meta name="description" content="Muslima Boutique - أناقة الشالات والخمارات">
   <title>Muslima Boutique</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,6 +75,35 @@
     .social .ig-stroke { fill:none; stroke:currentColor; stroke-width:2.3; }
     .footer { margin:27px 0 0; color:#9a858e; font-size:11px; letter-spacing:1.5px; direction:ltr; }
     @media (prefers-reduced-motion: reduce) { .social { transition:none; } }
+ /* لمسات زخرفية أنيقة */
+.card {
+  border: 1px solid rgba(189,40,102,.22);
+}
+
+.card::before {
+  border: 1px solid rgba(189,40,102,.20);
+  box-shadow: 0 0 0 7px rgba(197,139,159,.05);
+}
+
+.card::after {
+  border: 1px solid rgba(197,139,159,.25);
+  box-shadow: 0 0 0 7px rgba(197,139,159,.05);
+}
+
+.ornament {
+  font-size: 19px;
+  color: #bd2866;
+  text-shadow: 0 2px 5px rgba(189,40,102,.2);
+}
+
+.tagline {
+  letter-spacing: .2px;
+  color: #8f1749;
+}
+
+.logo-wrap {
+  border: 1px solid rgba(197,139,159,.25);
+}
   </style>
 </head>
 <body>
@@ -84,7 +113,7 @@
     </div>
 
     <h1>Muslima Boutique</h1>
-    <p class="tagline">أناقة الخُمُر والحجابات</p>
+    <p class="tagline">أناقة الشالات والخمارات</p>
     <div class="ornament" aria-hidden="true">✦</div>
 
     <nav class="links" aria-label="روابط التواصل الاجتماعي">
